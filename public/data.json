@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Rivera",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "alex.rivera@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "hiking"],
+    "bio": "Met in university. We used to go on weekend hiking trips in the mountains every month.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "priya.sharma@outlook.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["work", "close friend"],
+    "bio": "Former coworker from my first job. Still my go-to person for career advice and coffee chats.",
+    "goal": 10,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Marcus Thompson",
+    "picture": "https://randomuser.me/api/portraits/men/65.jpg",
+    "email": "marcus.t87@yahoo.com",
+    "days_since_contact": 31,
+    "status": "overdue",
+    "tags": ["childhood", "basketball"],
+    "bio": "Known each other since we were 8 years old. Played on the same basketball team through high school.",
+    "goal": 21,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 4,
+    "name": "Elena Petrova",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "elena.petrova@email.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["gym", "yoga"],
+    "bio": "Met at the local gym 3 years ago. We motivate each other during early morning workouts.",
+    "goal": 7,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 5,
+    "name": "Jamal Wright",
+    "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "email": "jamal.wright92@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["neighbor", "music"],
+    "bio": "Lives two houses down. We often jam together on weekends — he plays guitar, I play drums.",
+    "goal": 14,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 6,
+    "name": "Sophie Laurent",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "sophie.laurent@protonmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["travel", "foodie"],
+    "bio": "Travel buddy from our backpacking trip through Southeast Asia in 2022. Still planning our next adventure.",
+    "goal": 18,
+    "next_due_date": "2026-04-08"
+  },
+  {
+    "id": 7,
+    "name": "Liam Chen",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "liam.chen@icloud.com",
+    "days_since_contact": 9,
+    "status": "on-track",
+    "tags": ["gaming", "online"],
+    "bio": "Met through online gaming 5 years ago. We still play together every week and talk about everything.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 8,
+    "name": "Aisha Khan",
+    "picture": "https://randomuser.me/api/portraits/women/50.jpg",
+    "email": "aisha.khan99@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["book club", "close friend"],
+    "bio": "Joined the same book club in 2023. We've become very close and now share life updates almost weekly.",
+    "goal": 7,
+    "next_due_date": "2026-04-16"
+  }
+]
