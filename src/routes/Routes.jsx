@@ -3,6 +3,7 @@ import RootLayout from "../layout/RootLayout";
 import HomePage from "../components/homePage/HomePage";
 import TimeLine from "../pages/timeLinePage/TimeLine";
 import StatsPage from "../pages/statsPage/StatsPage";
+import FriendDetailsPage from "../pages/friendDetailsPage/FriendDetailsPage";
 
 
   export const router = createBrowserRouter([
@@ -21,6 +22,10 @@ import StatsPage from "../pages/statsPage/StatsPage";
             {
                 path: '/stats',
                 Component: StatsPage
+            },
+            {
+                path: '/details/:id',
+               Component: FriendDetailsPage
             }
         ]
     }

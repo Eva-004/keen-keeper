@@ -13,10 +13,10 @@ const Banner = () => {
                     <div className="btn font-semibold bg-[#244D3F] text-white"><GoPlus />Add a Friend</div>
                 </div>
                 <div className='my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
-                    <SummaryCards></SummaryCards>
-                    <SummaryCards></SummaryCards>
-                    <SummaryCards></SummaryCards>
-                    <SummaryCards></SummaryCards>
+                    <SummaryCards title={'Total Friends'} count={10}></SummaryCards>
+                    <SummaryCards title={'On Track'} count={10}></SummaryCards>
+                    <SummaryCards title={'Total Friends'} count={10}></SummaryCards>
+                    <SummaryCards title={'Total Friends'} count={10}></SummaryCards>
                 </div>
                 <div className="divider my-10"></div>
             </div>
