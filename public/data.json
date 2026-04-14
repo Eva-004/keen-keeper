@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Alex Rivera",
-    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "picture": "https://i.ibb.co.com/whrpTJhV/32.jpg",
     "email": "alex.rivera@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -90,7 +90,7 @@
     "email": "aisha.khan99@gmail.com",
     "days_since_contact": 5,
     "status": "on-track",
-    "tags": ["book club", "close friend"],
+    "tags": ["book club"],
     "bio": "Joined the same book club in 2023. We've become very close and now share life updates almost weekly.",
     "goal": 7,
     "next_due_date": "2026-04-16"
