@@ -18,6 +18,7 @@ const Banner = () => {
                     <SummaryCards></SummaryCards>
                     <SummaryCards></SummaryCards>
                 </div>
+                <div className="divider my-10"></div>
             </div>
         </div>
     );
