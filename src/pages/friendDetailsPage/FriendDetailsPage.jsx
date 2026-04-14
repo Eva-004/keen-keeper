@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useParams } from 'react-router';
 import useFriends from '../../components/hocks/useFriends';
 import { RingLoader } from 'react-spinners';
 import DetailsCard from '../../components/Cards/DetailsCard';
-import { MdOutlineNotificationsPaused } from 'react-icons/md';
+import { MdOutlineNotificationsPaused, MdOutlineTextsms } from 'react-icons/md';
 import { GoArchive } from 'react-icons/go';
 import { RiDeleteBinLine } from 'react-icons/ri';
 import SummaryCards from '../../components/Cards/SummaryCards';
 import { BiPhoneCall } from 'react-icons/bi';
+import { FriendsContext } from '../../context/FriendsContextProvider';
+import { CiVideoOn } from 'react-icons/ci';
 
 const FriendDetailsPage = () => {
     console.log('details')
@@ -15,6 +17,13 @@ const FriendDetailsPage = () => {
        const {friends,loading}=useFriends();
         const expectedFriend = friends.find(friend => friend.id === Number(id));
         console.log(expectedFriend);
+        const {timeLines,setTimeLines} = useContext(FriendsContext);
+   const handleContact = (contact)=>{
+    const title = expectedFriend.name;
+    const type = contact;
+    const currentDate = new Date().toISOString().split('T')[0];
+    setTimeLines([...timeLines,{title, type,currentDate}])
+   }
     return (
         <div className='bg-base-200 py-15'>
             {
@@ -44,17 +53,17 @@ const FriendDetailsPage = () => {
                      <div className='card card-body shadow-sm bg-base-100'>
                       <h2 className='text-xl font-medium text-[#244D3F]'>Quick Check-In</h2>
                       <div className='flex justify-between gap-4'>
-                        <button className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer">
+                        <button onClick={()=>handleContact('Call')}  className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer">
                           <BiPhoneCall/>
                           <p >Call</p>
                         </button>
-                        <button className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer">
-                          <BiPhoneCall/>
-                          <p >Call</p>
+                        <button onClick={()=>handleContact('Text')} className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer">
+                         <MdOutlineTextsms />
+                          <p >Text</p>
                         </button>
-                        <button className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer">
-                          <BiPhoneCall/>
-                          <p >Call</p>
+                        <button onClick={()=>handleContact('Video')}  className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer">
+                          <CiVideoOn />
+                          <p >Video</p>
                         </button>
                       </div>
                      </div>

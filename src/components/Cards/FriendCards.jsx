@@ -5,12 +5,12 @@ const FriendCards = ({friend}) => {
    
     return (
         <Link to={`/details/${friend.id}`}>
-            <div className="card bg-base-100  shadow-sm">
-                <figure className="px-10 pt-10">
+            <div className="card bg-base-100 h-70 shadow-sm">
+                <figure className="px-10 pt-4">
                     <img
                         src={friend.picture}
                         alt={friend.name}
-                        className="rounded-full" />
+                        className="rounded-full h-18 " />
                 </figure>
                 <div className="card-body items-center text-center space-y-2">
                     <h2 className="card-title text-[#1F2937]">{friend.name}</h2>
