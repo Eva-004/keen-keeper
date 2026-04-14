@@ -34,7 +34,7 @@ const FriendDetailsPage = () => {
                         <SummaryCards title={'Goal (Days)'} count={expectedFriend.goal}></SummaryCards>
                         <SummaryCards title={'Next Due'} count={expectedFriend.next_due_date}></SummaryCards>
                      </div>
-                     <div className='card card-body shadow-sm bg-base-100'>
+                     <div className='card card-body  shadow-sm bg-base-100'>
                          <div className='flex justify-between'>
                             <h2 className='text-xl font-medium text-[#244D3F]'>Relationship Goal</h2>
                             <div className="btn">Edit</div>
