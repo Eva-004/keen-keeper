@@ -21,7 +21,7 @@ const FriendDetailsPage = () => {
    const handleContact = (contact)=>{
     const title = expectedFriend.name;
     const type = contact;
-    const currentDate = new Date().toISOString().split('T')[0];
+    const currentDate = new Date().toISOString();
     setTimeLines([...timeLines,{title, type,currentDate}])
    }
     return (
