@@ -6,7 +6,7 @@ const FriendsContextProvider = ({children}) => {
      const [timeLines,setTimeLines] = useState([]);
      const data ={
         timeLines,
-        setTimeLines
+        setTimeLines,
      }
     return (
        <FriendsContext.Provider value={data}>
