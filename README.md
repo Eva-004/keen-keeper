@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-Friend Tracker is a simple web application that helps users keep track of their interactions with friends. It allows users to log calls, texts, and video chats, and stay connected by maintaining regular communication.
+Keen Keeper is a simple web application that helps users keep track of their interactions with friends. It allows users to log calls, texts, and video chats, and stay connected by maintaining regular communication.
 
 ---
 
