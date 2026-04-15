@@ -10,6 +10,7 @@ import SummaryCards from '../../components/Cards/SummaryCards';
 import { BiPhoneCall } from 'react-icons/bi';
 import { FriendsContext } from '../../context/FriendsContextProvider';
 import { CiVideoOn } from 'react-icons/ci';
+import { toast } from 'react-toastify';
 
 const FriendDetailsPage = () => {
     console.log('details')
@@ -23,6 +24,7 @@ const FriendDetailsPage = () => {
     const type = contact;
     const currentDate = new Date().toISOString();
     setTimeLines([...timeLines,{title, type,currentDate}])
+    toast.success(`Check-in by ${type} successfully!`)
    }
     return (
         <div className='bg-base-200 py-15'>
