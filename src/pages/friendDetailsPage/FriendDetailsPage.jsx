@@ -30,7 +30,7 @@ const FriendDetailsPage = () => {
         <div className='bg-base-200 py-15'>
             {
                 loading ? <div className='flex justify-center items-center'><RingLoader /></div> :
-                <div className='w-11/12 mx-auto px-20 grid grid-cols-1 md:grid-cols-3 gap-6'>
+                <div className='w-11/12 mx-auto md:px-20 grid grid-cols-1 md:grid-cols-3 md:gap-6'>
                   <div className='col-span-1'> 
                     <DetailsCard expectedFriend={expectedFriend}></DetailsCard>
                    <div className='flex flex-col mt-4 space-y-2'>
@@ -54,16 +54,16 @@ const FriendDetailsPage = () => {
                      </div>
                      <div className='card card-body shadow-sm bg-base-100'>
                       <h2 className='text-xl font-medium text-[#244D3F]'>Quick Check-In</h2>
-                      <div className='flex justify-between gap-4'>
-                        <button onClick={()=>handleContact('Call')}  className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer">
+                      <div className='flex justify-between flex-col sm:flex-row gap-4'>
+                        <button onClick={()=>handleContact('Call')}  className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer hover:bg-[#244D3F] hover:text-white">
                           <BiPhoneCall/>
                           <p >Call</p>
                         </button>
-                        <button onClick={()=>handleContact('Text')} className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer">
+                        <button onClick={()=>handleContact('Text')} className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer hover:bg-[#244D3F] hover:text-white">
                          <MdOutlineTextsms />
                           <p >Text</p>
                         </button>
-                        <button onClick={()=>handleContact('Video')}  className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer">
+                        <button onClick={()=>handleContact('Video')}  className="card card-body bg-base-200 shadow-sm text-center flex flex-col justify-center items-center space-y-2 text-lg cursor-pointer hover:bg-[#244D3F] hover:text-white">
                           <CiVideoOn />
                           <p >Video</p>
                         </button>

@@ -12,7 +12,7 @@ const TimeLine = () => {
    }
     return (
         <div className='bg-base-200 py-18'>
-            <div className='w-11/12 mx-auto px-20 space-y-6'>
+            <div className='w-11/12 mx-auto md:px-20 space-y-6'>
                 <h2 className='font-bold text-5xl'>Timeline </h2>
                 <div className="dropdown dropdown-bottom flex justify-end">
                     <div tabIndex={0} role="button" className="btn m-1 text-lg text-[#64748B]">Filter timeline  ⬇️</div>

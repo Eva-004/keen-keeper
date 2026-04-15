@@ -6,7 +6,7 @@ import { RingLoader } from 'react-spinners';
 const AllFriends = () => {
     const {friends,loading}=useFriends();
     return (
-        <div className='w-11/12 mx-auto px-20'>
+        <div className='w-11/12 mx-auto md:px-20'>
             <h2 className='text-2xl font-semibold text-[#1F2937] mb-4'>Your Friends</h2>
             <div>
                 {

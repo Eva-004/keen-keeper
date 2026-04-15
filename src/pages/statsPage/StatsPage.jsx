@@ -15,12 +15,12 @@ const StatsPage = ({ isAnimationActive = true }) => {
     ]
     return (
         <div className='bg-base-200 py-20'>
-            <div className='w-11/12 mx-auto px-20'>
+            <div className='w-11/12 mx-auto md:px-20'>
                 <h2 className='text-4xl font-bold text-[#1F2937]'>Friendship Analytics</h2>
                 <div className='mt-6 card card-body bg-white shadow-sm space-y-6'>
                     <p className='font-medium text-xl text-[#244D3F] mb-6'>By Interaction Type</p>
                    <div className='flex justify-center items-center'>
-                    <PieChart style={{ width: '100%', maxWidth: '500px', maxHeight: '80vh', aspectRatio: 1 }} responsive>
+                    <PieChart style={{ width: '100%', maxWidth: '500px', maxHeight: '50vh', aspectRatio: 1 }} responsive>
                         <Pie
                             data={data}
                             innerRadius="80%"

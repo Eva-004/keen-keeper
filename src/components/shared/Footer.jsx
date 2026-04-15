@@ -6,10 +6,10 @@ import twitter from '../../assets/twitter.png'
 const Footer = () => {
     return (
         <div className='bg-[#244D3F] text-white pt-20'>
-            <div className='w-11/12 mx-auto px-20'>
+            <div className='w-11/12 mx-auto md:px-20'>
                 <div className='text-center space-y-4'>
                     <div className='flex justify-center items-center'>
-                        <img src={footerLogo} alt="" className='h-14' />
+                        <img src={footerLogo} alt="" className='h-10 md:h-14' />
                     </div>
                     <p>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
                     <div>
@@ -24,9 +24,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="divider text-white"></div>
-                <div className='pb-8 flex justify-between items-center'>
+                <div className='pb-8 flex justify-between items-center flex-col md:flex-row'>
                     <p>&copy; 2026 KeenKeeper. All rights reserved.</p>
-                    <div className='flex justify-between items-center gap-4'>
+                    <div className='flex justify-between items-center gap-2 md:gap-4'>
                         <p>Privacy Policy</p>
                         <p>Terms of Service</p>
                         <p>Cookies</p>
