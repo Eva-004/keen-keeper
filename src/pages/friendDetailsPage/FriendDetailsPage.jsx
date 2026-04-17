@@ -30,7 +30,7 @@ const FriendDetailsPage = () => {
         <div className='bg-base-200 py-15'>
             {
                 loading ? <div className='flex justify-center items-center'><RingLoader /></div> :
-                <div className='w-11/12 mx-auto md:px-20 grid grid-cols-1 md:grid-cols-3 md:gap-6'>
+                <div className='w-11/12 mx-auto md:px-20 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6'>
                   <div className='col-span-1'> 
                     <DetailsCard expectedFriend={expectedFriend}></DetailsCard>
                    <div className='flex flex-col mt-4 space-y-2'>
