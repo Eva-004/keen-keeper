@@ -50,7 +50,7 @@ npm install react react-dom react-router react-icons react-spinners react-toasti
 
 ---
 
-## ⚙️ Installation & Setup Guide
+### ⚙️ Installation & Setup Guide
 
 Follow these steps to run the project locally:
 
