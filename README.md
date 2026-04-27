@@ -45,9 +45,7 @@ Keen Keeper is a simple web application that helps users keep track of their int
 
 This project uses the following main dependencies:
 
-```bash
 npm install react react-dom react-router react-icons react-spinners react-toastify recharts tailwindcss @tailwindcss/vite react-animations
-```bash
 ---
 
 ### ⚙️ Installation & Setup Guide
