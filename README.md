@@ -56,7 +56,7 @@ Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/keenkeeper.git
+git clone https://github.com/Eva-004/keen-keeper
 
 ### 2️⃣ Navigate to Project Folder
 
