@@ -8,17 +8,6 @@ Keen Keeper is a simple web application that helps users keep track of their int
 
 ---
 
-✨ Key Features
-📊 Interactive Dashboard – A responsive 4-column grid layout to manage friend profiles and track contact status.
-⏱️ Dynamic Timeline – Automatically logs calls, messages, and video interactions with real-time updates.
-📈 Friendship Analytics – Visual insights using Recharts to analyze interaction history.
-🔀 Seamless Navigation – Smooth page transitions using React Router DOM.
-📱 Fully Responsive Design – Optimized for mobile, tablet, and desktop devices.
-🔔 User Notifications – Real-time feedback using React Hot Toast / Toastify.
-
-
----
-
 ## 🛠️ Technologies Used
 
 * React.js
@@ -27,28 +16,62 @@ Keen Keeper is a simple web application that helps users keep track of their int
 * Recharts
 * React Icons
 * React Toastify
+* 
+---
+
+## ✨ Key Features
+
+- 📊 **Interactive Dashboard**  
+  A responsive 4-column grid layout to manage friend profiles and track contact status.
+
+- ⏱️ **Dynamic Timeline**  
+  Automatically logs calls, messages, and video interactions with real-time updates.
+
+- 📈 **Friendship Analytics**  
+  Visual insights using Recharts to analyze interaction history.
+
+- 🔀 **Seamless Navigation**  
+  Smooth page transitions using React Router DOM.
+
+- 📱 **Fully Responsive Design**  
+  Optimized for mobile, tablet, and desktop devices.
+
+- 🔔 **User Notifications**  
+  Real-time feedback using React Hot Toast / Toastify.
 
 ---
 
-📦 Dependencies
+## 📦 Dependencies
 
 This project uses the following main dependencies:
 
+```bash
 npm install react react-dom react-router react-icons react-spinners react-toastify recharts tailwindcss @tailwindcss/vite react-animations
 
 ---
 
-###⚙️ Installation & Setup Guide
+## ⚙️ Installation & Setup Guide
 
 Follow these steps to run the project locally:
 
-1️⃣ Clone the Repository
+---
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/your-username/keenkeeper.git
-2️⃣ Navigate to Project Folder
+
+### 2️⃣ Navigate to Project Folder
+```bash
 cd keen-keeper
-3️⃣ Install Dependencies
+
+### 3️⃣ Install Dependencies
+```bash
 npm install
-4️⃣ Start Development Server
+
+### 4️⃣ Start Development Server
+```bash
 npm run dev
-5️⃣ Open in Browser
+
+### 5️⃣ Open in Browser
+```bash
 http://localhost:5173
