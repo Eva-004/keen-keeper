@@ -47,7 +47,7 @@ This project uses the following main dependencies:
 
 ```bash
 npm install react react-dom react-router react-icons react-spinners react-toastify recharts tailwindcss @tailwindcss/vite react-animations
-
+```bash
 ---
 
 ### ⚙️ Installation & Setup Guide
