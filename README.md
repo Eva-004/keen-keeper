@@ -55,21 +55,21 @@ Follow these steps to run the project locally:
 ---
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/your-username/keenkeeper.git
 
 ### 2️⃣ Navigate to Project Folder
-```bash
+
 cd keen-keeper
 
 ### 3️⃣ Install Dependencies
-```bash
+
 npm install
 
 ### 4️⃣ Start Development Server
-```bash
+
 npm run dev
 
 ### 5️⃣ Open in Browser
-```bash
+
 http://localhost:5173
